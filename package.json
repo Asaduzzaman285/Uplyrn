@@ -1,0 +1,52 @@
+{
+    "name": "my-react-template",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+    },
+    "dependencies": {
+        "aos": "^2.3.4",
+        "install": "^0.13.0",
+        "keen-slider": "^6.8.5",
+        "localforage": "^1.10.0",
+        "match-sorter": "^6.3.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-fast-marquee": "^1.6.0",
+        "react-headroom": "^3.2.1",
+        "react-icons": "^4.9.0",
+        "react-parallax": "^3.5.1",
+        "react-router-dom": "^6.10.0",
+        "react-tabs": "^6.0.1",
+        "react-typed": "^1.2.0",
+        "sort-by": "^1.2.0",
+        "sweetalert2": "^11.7.12",
+        "swiper": "^9.4.1",
+        "video-react": "^0.16.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^3.1.0",
+        "autoprefixer": "^10.4.14",
+        "babel-eslint": "^10.1.0",
+        "daisyui": "^3.1.1",
+        "eslint": "8.2.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-import": "2.25.3",
+        "eslint-plugin-jsx-a11y": "6.5.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "7.28.0",
+        "eslint-plugin-react-hooks": "4.3.0",
+        "postcss": "^8.4.21",
+        "prettier": "^2.8.8",
+        "tailwindcss": "^3.3.1",
+        "vite": "^4.2.0"
+    }
+}
